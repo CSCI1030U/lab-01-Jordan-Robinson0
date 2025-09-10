@@ -14,7 +14,6 @@ def main():
     print(f'tax = ${tax:0.2f}')
     print(f'total_cost = ${total_cost:0.2f}')
 
-
     # THIS IS THE CODE FOR PART 3
     initial_investment = 1000
     interest_rate = 0.035
@@ -24,7 +23,7 @@ def main():
     investment += investment * interest_rate
     investment += investment * interest_rate
     investment += investment * interest_rate
-    print('After 5 years, your investment will be worth', investment, 'dollars.')
+    print('After 5 years, your investment will be worth',investment, 'dollars.')
     # expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
 
 if __name__ == "__main__":
